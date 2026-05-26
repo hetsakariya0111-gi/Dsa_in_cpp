@@ -7,7 +7,7 @@ public:
             for (int j = i + 1; j < nums.size(); j++) {
                 if (nums[j] == target - nums[i]) {
                     return {i, j};
-                }
+                } 
             }
         }
         // Return an empty vector if no solution is found
