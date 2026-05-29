@@ -12,3 +12,6 @@ public:
         }
     }
 };
+
+// time -> O(n) because we are traversing the array once
+// space -> O(1) because we are using only constant extra space
