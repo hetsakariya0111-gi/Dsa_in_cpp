@@ -14,3 +14,6 @@ public:
         return false;
     }
 }; 
+
+// time -> O(n) because we are traversing the array once
+// space -> O(n) because in worst case we can have all distinct elements in the set
