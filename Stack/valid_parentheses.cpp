@@ -24,7 +24,7 @@ public:
 
                 // stack empty OR mismatch
                 if(st.empty() || st.top() != mp[ch]){
-                    return false;
+                    return false; 
                 }
 
                 st.pop();
